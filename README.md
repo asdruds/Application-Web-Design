@@ -1,14 +1,43 @@
- 
-Name: Asdru Díaz
-Degree: Software Development
-Sixth Semester
+## Personal information
+__Name:__ Asdru Díaz - Sixth Semester - Software development
 
-Subject: Web application design
-Teacher: Manuel Alejandro García Andrade
+__Subject:__ Web application design
 
-¿What MARKDOWN is used for?
+#### Technologies you handle
+* Java
+* Python
+* GitHub
+* Canva
 
-Markdown is an easy-to-use markup language that is used with plain text to add formatting elements (headings, bulleted lists, URLs) to plain text without the use of a formal text editor or the use of HTML tags.
+#### Technologies you are learning
+* XAMPP
+* Java EE
+* Azure
 
-Markdown es un lenguaje de marcado fácil de usar que se utiliza con texto sin formato para agregar elementos de formato (encabezados, listas con viñetas, URL) al texto sin formato sin el uso de un editor de texto formal o el uso de etiquetas HTML.
+#### Goals at the end of yout degree
+* Be able yo understand every step of the Software life cycle, and be able implement varios types of metologies to the development.
+* Focus on Back-end and Cloud Architecture
 
+## How to create locally a repository and upload it to github
+
+1. Enter Git bash and access or create a directory where you want to locate your repository.
+2. type __git init__ to initialice a repositoy
+3. Set a name and email so you can track who made any commit on the repository
+   1. __git config --global user.name "name"__ for your name
+   2. __git config --global user.email "email"__ for your email
+4. Copy the URL of the repository you want to clone and type __git clone__ and the URL
+5. To push any change made in the local repository to the remote repository use __git push origin__
+
+## List of commands used in git
+
+* Check the status of a local repository - __git status__
+* Add files
+    * individual - __git add <file name>__
+    * globally - __git add *__
+* Add comments to the commit - __git commit -m "Commit message"__
+* Upload your changes to the remote repository - __git push origin__
+* Branches
+    * Create - __git branch <name>__
+    * Browse - __git branch__
+    * Deelte - __git branch -D <branch name>__
+* Roll back a repository to a specific commit - __git reset__
