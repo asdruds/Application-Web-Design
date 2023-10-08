@@ -22,11 +22,11 @@ Route::get('/courses', function () {
 });
 
 //http://localhost/actividad7/public/courses/Infraestructura
-Route::get('/courses/course', function ($course) {
+Route::get('/courses/{course}', function ($course) {
     return ("Welcome to the course: $course.");
 });
 
 //http://localhost/actividad7/public/courses/Infraestructura/Data
-Route::get('/courses/course/category', function ($course,$category) {
+Route::get('/courses/{course}/{category}', function ($course,$category) {
     return ("Welcome to the course: $course, of the category: $category. ");
 });
