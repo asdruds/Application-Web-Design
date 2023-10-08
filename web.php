@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function () {
-    return view('Welcome :)');
+    return ('Welcome :)');
 });
 
 //http://localhost/actividad7/public/courses
